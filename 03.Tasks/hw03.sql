@@ -1,8 +1,9 @@
 /* Задача 1
 Отсортируйте данные по полю заработная плата (salary) в порядке: убывания; возрастания
 */
-SELECT * FROM staff ORDER BY salary;
 SELECT * FROM staff ORDER BY salary DESC;
+SELECT * FROM staff ORDER BY salary;
+
 
 /* Задача 2
 Выведите 5 максимальных заработных плат (salary)
